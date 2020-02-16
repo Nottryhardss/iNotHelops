@@ -308,3 +308,4 @@ while True:
                         vk.method("messages.send", {"peer_id": event.object.peer_id,
                                                     "message": coupleFile + "\n\n" + couple1 + "\n" + couple2 + "\n" + couple3 + "\n" + couple4,
                                                     "random_id": 0})
+
