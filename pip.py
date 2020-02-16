@@ -299,13 +299,13 @@ while True:
                                     couple2 = "2. Математика"
                                     couple3 = "3. История"
                                     couple4 = "4."
-                    if coupleFile == "":
-                        vk.method("messages.send", {"peer_id": event.object.peer_id,
+                     if coupleFile == "":
+                         vk.method("messages.send", {"peer_id": event.object.peer_id,
                                                     "message": "Расписание 1С1 на " + str(dayNikita) + "." + str(month) + "." + str(year) + "\n" + "\n\n" + couple1 + "\n" + couple2 + "\n" + couple3 + "\n" + couple4,
                                                     "random_id": 0})
 
-                    elif coupleFile != "":
-                        vk.method("messages.send", {"peer_id": event.object.peer_id,
+                     elif coupleFile != "":
+                         vk.method("messages.send", {"peer_id": event.object.peer_id,
                                                     "message": coupleFile + "\n\n" + couple1 + "\n" + couple2 + "\n" + couple3 + "\n" + couple4,
                                                     "random_id": 0})
 
