@@ -156,6 +156,42 @@ while True:
                         if time < 11:
                             if ParityOfTheWeek:
                                 if dayOfWeek == 1:
+                                    couple1 = "1. Физика"
+                                    couple2 = "2. Математика"
+                                    couple3 = "3. Астрономия"
+                                    couple4 = "4."
+                                elif dayOfWeek == 2:
+                                    couple1 = "1. Физкультура"
+                                    couple2 = "2. Физика"
+                                    couple3 = "3. Обществознание"
+                                    couple4 = "4. Ин.яз"
+                                elif dayOfWeek == 3:
+                                    couple1 = "1. Математика"
+                                    couple2 = "2. История"
+                                    couple3 = "3. Химия"
+                                    couple4 = "4."
+                                elif dayOfWeek == 4:
+                                    couple1 = "1. Математика"
+                                    couple2 = "2. Русский яз."
+                                    couple3 = "3. Физ-ра"
+                                    couple4 = "4."
+                                elif dayOfWeek == 5:
+                                    couple1 = "1. Литература"
+                                    couple2 = "2. Математика"
+                                    couple3 = "3. Информатика"
+                                    couple4 = "4. "
+                                elif dayOfWeek == 6:
+                                    couple1 = "1. История"
+                                    couple2 = "2. ОБЖ"
+                                    couple3 = ""
+                                    couple4 = "4."
+                                elif dayOfWeek == 1:
+                                    couple1 = "1. Физика"
+                                    couple2 = "2. Математика"
+                                    couple3 = "3. Астрономия"
+                                    couple4 = "4."
+                            elif not ParityOfTheWeek:
+                                if dayOfWeek == 1:
                                     couple1 = "1. Обществознание"
                                     couple2 = "2. Математика"
                                     couple3 = "3. История"
@@ -168,7 +204,7 @@ while True:
                                 elif dayOfWeek == 3:
                                     couple1 = "1. Математика"
                                     couple2 = "2. Физика"
-                                    couple3 = "3. Обж"
+                                    couple3 = "3. ОБЖ"
                                     couple4 = "4."
                                 elif dayOfWeek == 4:
                                     couple1 = "1. Математика"
@@ -184,87 +220,15 @@ while True:
                                     couple1 = "1. Астрономия"
                                     couple2 = "2. Химия"
                                     couple3 = ""
-                                    couple4 = "4."
+                                    couple4 = ""
                                 elif dayOfWeek == 1:
-                                    couple1 = "1. Обществознание"
-                                    couple2 = "2. Математика"
-                                    couple3 = "3. История"
-                                    couple4 = "4."
-                            elif not ParityOfTheWeek:
-                                if dayOfWeek == 1:
                                     couple1 = "1. Физика"
                                     couple2 = "2. Математика"
                                     couple3 = "3. Астрономия"
-                                    couple4 = "4."
-                                elif dayOfWeek == 2:
-                                    couple1 = "1. Физкультура"
-                                    couple2 = "2. Физика"
-                                    couple3 = "3. Обществознание"
-                                    couple4 = "4. Ин.яз"
-                                elif dayOfWeek == 3:
-                                    couple1 = "1. Математика"
-                                    couple2 = "2. История"
-                                    couple3 = "3. Химия"
-                                    couple4 = "4."
-                                elif dayOfWeek == 4:
-                                    couple1 = "1. Математика"
-                                    couple2 = "2. Русский яз."
-                                    couple3 = "3. Физкультура"
-                                    couple4 = "4."
-                                elif dayOfWeek == 5:
-                                    couple1 = "1. Литература"
-                                    couple2 = "2. Математика"
-                                    couple3 = "3. Информатика"
-                                    couple4 = "4. "
-                                elif dayOfWeek == 6:
-                                    couple1 = "1. История"
-                                    couple2 = "2. ОБЖ"
-                                    couple3 = ""
-                                    couple4 = ""
-                                elif dayOfWeek == 1:
-                                    couple1 = "1. Обществознание"
-                                    couple2 = "2. Математика"
-                                    couple3 = "3. История"
                                     couple4 = ""
                         else:
                             if ParityOfTheWeek:
                                 if dayOfWeek == 7:
-                                    couple1 = "1. Обществознание"
-                                    couple2 = "2. Математика"
-                                    couple3 = "3. История"
-                                    couple4 = ""
-                                elif dayOfWeek == 1:
-                                    couple1 = "1. Физкультура"
-                                    couple2 = "2. Обществознание"
-                                    couple3 = "3. Ин.ях"
-                                    couple4 = "4."
-                                elif dayOfWeek == 2:
-                                    couple1 = "1. Математика"
-                                    couple2 = "2. Физика"
-                                    couple3 = "3. ОБЖ"
-                                    couple4 = ""
-                                elif dayOfWeek == 3:
-                                    couple1 = "1. Математика"
-                                    couple2 = "2. Русский яз."
-                                    couple3 = "3. Информатика"
-                                    couple4 = ""
-                                elif dayOfWeek == 4:
-                                    couple1 = "1. Литература"
-                                    couple2 = "2. Математика"
-                                    couple3 = "3. Физика"
-                                    couple4 = "4. ОБЖ"
-                                elif dayOfWeek == 5:
-                                    couple1 = "1. Астрономия"
-                                    couple2 = "2. Химия"
-                                    couple3 = ""
-                                    couple4 = ""
-                                elif dayOfWeek == 6:
-                                    couple1 = "1. Обществознание"
-                                    couple2 = "2. Математика"
-                                    couple3 = "3. История"
-                                    couple4 = ""
-                            elif not ParityOfTheWeek:
-                                if dayOfWeek == 7:
                                     couple1 = "1. Физика"
                                     couple2 = "2. Математика"
                                     couple3 = "3. Астрономия"
@@ -278,12 +242,12 @@ while True:
                                     couple1 = "1. Математика"
                                     couple2 = "2. История"
                                     couple3 = "3. Химия"
-                                    couple4 = "4."
+                                    couple4 = ""
                                 elif dayOfWeek == 3:
                                     couple1 = "1. Математика"
                                     couple2 = "2. Русский яз."
-                                    couple3 = "3. Физкультура"
-                                    couple4 = "4."
+                                    couple3 = "3. Физ-ра"
+                                    couple4 = ""
                                 elif dayOfWeek == 4:
                                     couple1 = "1. Литература"
                                     couple2 = "2. Математика"
@@ -292,20 +256,55 @@ while True:
                                 elif dayOfWeek == 5:
                                     couple1 = "1. История"
                                     couple2 = "2. ОБЖ"
-                                    couple3 = "3."
-                                    couple4 = "4."
+                                    couple3 = ""
+                                    couple4 = ""
                                 elif dayOfWeek == 6:
+                                    couple1 = "1. Физика"
+                                    couple2 = "2. Математика"
+                                    couple3 = "3. Астрономия"
+                                    couple4 = ""
+                            elif not ParityOfTheWeek:
+                                if dayOfWeek == 7:
                                     couple1 = "1. Обществознание"
                                     couple2 = "2. Математика"
                                     couple3 = "3. История"
                                     couple4 = "4."
+                                elif dayOfWeek == 1:
+                                    couple1 = "1. Физкультура"
+                                    couple2 = "2. Обществознание"
+                                    couple3 = "3. Ин.яз"
+                                    couple4 = "4. "
+                                elif dayOfWeek == 2:
+                                    couple1 = "1. Математика"
+                                    couple2 = "2. Физика"
+                                    couple3 = "3. ОБЖ"
+                                    couple4 = "4."
+                                elif dayOfWeek == 3:
+                                    couple1 = "1. Математика"
+                                    couple2 = "2. Русский яз."
+                                    couple3 = "3. Информатика"
+                                    couple4 = "4."
+                                elif dayOfWeek == 4:
+                                    couple1 = "1. Литература"
+                                    couple2 = "2. Математика"
+                                    couple3 = "3. Физика"
+                                    couple4 = "4. ОБЖ"
+                                elif dayOfWeek == 5:
+                                    couple1 = "1. Астрономия"
+                                    couple2 = "2. Химия"
+                                    couple3 = "3."
+                                    couple4 = "4."
+                                elif dayOfWeek == 6:
+                                    couple1 = "1. Физика"
+                                    couple2 = "2. Математика"
+                                    couple3 = "3. Астрономия"
+                                    couple4 = "4."
                     if coupleFile == "":
                         vk.method("messages.send", {"peer_id": event.object.peer_id,
-                                                    "message": "Расписание 1С1 на " + str(dayNikita) + "." + str(month) + "." + str(year) + "\n" + "\n\n" + couple1 + "\n" + couple2 + "\n" + couple3 + "\n" + couple4,
+                                                    "message": "✅Расписание 1С1 на " + str(dayNikita) + "." + str(month) + "." + str(year) + "\n" + "\n\n" + couple1 + "\n" + couple2 + "\n" + couple3 + "\n" + couple4,
                                                     "random_id": 0})
 
                     elif coupleFile != "":
                         vk.method("messages.send", {"peer_id": event.object.peer_id,
-                                                    "message": coupleFile + "\n\n" + couple1 + "\n" + couple2 + "\n" + couple3 + "\n" + couple4,
+                                                    "message": "⛔" + coupleFile + "\n\n" + couple1 + "\n" + couple2 + "\n" + couple3 + "\n" + couple4,
                                                     "random_id": 0})
-
