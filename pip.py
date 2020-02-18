@@ -119,22 +119,22 @@ while True:
                     group3 = sheet.cell(2, 6).value
                     group4 = sheet.cell(2, 9).value
 
-                    if group1 == 'Группа 1C1':
+                    if group1 == 'Группа 1С1':
                         couple1 = "1. " + sheet.cell(3, 1).value
                         couple2 = "2. " + sheet.cell(4, 1).value
                         couple3 = "3. " + sheet.cell(5, 1).value
                         couple4 = "4. " + sheet.cell(6, 1).value
-                    elif group2 == 'Группа 1C1':
+                    elif group2 == 'Группа 1С1':
                         couple1 = "1. " + sheet.cell(3, 4).value
                         couple2 = "2. " + sheet.cell(4, 4).value
                         couple3 = "3. " + sheet.cell(5, 4).value
                         couple4 = "4. " + sheet.cell(6, 4).value
-                    elif group3 == 'Группа 1C1':
+                    elif group3 == 'Группа 1С1':
                         couple1 = "1. " + sheet.cell(3, 7).value
                         couple2 = "2. " + sheet.cell(4, 7).value
                         couple3 = "3. " + sheet.cell(5, 7).value
                         couple4 = "4. " + sheet.cell(6, 7).value
-                    elif group4 == 'Группа 1C1':
+                    elif group4 == 'Группа 1С1':
                         couple1 = "1. " + sheet.cell(3, 10).value
                         couple2 = "2. " + sheet.cell(4, 10).value
                         couple3 = "3. " + sheet.cell(5, 10).value
