@@ -151,7 +151,7 @@ while True:
                         7 - Воскресенье
                         '''
 
-                        time = date.time().hour
+                        time = date.time().hour + 5
 
                         if time < 11:
                             if ParityOfTheWeek:
